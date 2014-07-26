@@ -1,4 +1,8 @@
-myResume
-========
+Jasin Yip's Resume
+==================
 
-My resume
+------
+
+我的个人简历项目
+
+
