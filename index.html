@@ -9,13 +9,55 @@
 	
 <script>
 	$(function(){
-		$("#block-1").css("line-height", $("#block-1").css("height"));
+		$("#block-firstPage").css("height", $(document).height());
+		$("#block-firstPage").css("line-height", $("#block-firstPage").css("height"));
 	});
 </script>
 </head>
 <body>
-	<section id="block-1">
+	<section id="block-firstPage">
 		<span class="blockTitle">Welcome</span>
+	</section>
+
+	<section id="block-nav">
+		<div class="container">
+			<a class="fl" id="logo">Jasin Yip</a>
+			<nav class="fr">
+				<a href="#" id="nav-intro">个人简介</a>
+				<a href="#" id="nav-skill">专业技能</a>
+				<a href="#" id="nav-workEXP">工作经验</a>
+				<a href="#" id="nav-projectEXP">项目经验</a>
+				<a href="#" id="nav-eduBg">教育背景</a>
+			</nav>
+		</div>
+	</section>
+
+	<section id="block-intro">
+		<div class="container">
+			
+		</div>
+	</section>
+
+	<section id="block-skill">
+		<div class="container">
+			
+		</div>
+	</section>
+
+	<section id="block-workEXP">
+		<div class="container">
+			
+		</div>
+	</section>
+
+	<section id="block-projectEXP">
+		<div class="container"></div>
+	</section>
+
+	<section id="block-eduBg">
+		<div class="container">
+			
+		</div>
 	</section>
 </body>
 </html>

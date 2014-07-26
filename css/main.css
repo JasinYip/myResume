@@ -1,3 +1,13 @@
-body{ height:100%;}
-.block { width:100%;}
-#block-1 { width:100% ;position:absolute; top:0px; bottom:0px; background-color:#ccc; font-size: 100px; font-family: "Microsoft YaHei"; text-align: center;}
+/* public */
+*{font-family: "Microsoft YaHei";}
+section{width:100%;}
+.container{position:relative; margin:0 auto; width:1140px; height:100%;}
+
+/* first page */
+#block-firstPage{width:100% ; background-color:#ccc; font-size: 100px; text-align: center;}
+
+/* nav */
+#block-nav{height:52px; background-color:#42474B; color:white;}
+#block-nav *{color:white;}
+#block-nav a{display:inline-block; padding:0 5px; height:52px; line-height:52px; cursor:pointer;}
+#logo{display: inline-block;}

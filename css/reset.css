@@ -1,6 +1,7 @@
-@charset "utf-8";
-/* CSS Document */
 *{margin:0;padding:0;}
 img{border:none;}
 li{list-style:none;}
-a{text-decoration:none;}
+a{text-decoration:none; color:black;}
+
+.fl{float:left;}
+.fr{float:right;}
