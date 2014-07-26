@@ -1,13 +1,16 @@
 /* public */
 *{font-family: "Microsoft YaHei";}
+body{background-color:#ccc}
 section{width:100%;}
 .container{position:relative; margin:0 auto; width:1140px; height:100%;}
 
 /* first page */
-#block-firstPage{width:100% ; background-color:#ccc; font-size: 100px; text-align: center;}
+#block-firstPage{width:100%; font-size: 100px; text-align: center;}
+.blockTitle{ position:absolute; margin:0 auto; width:100%;}
 
 /* nav */
 #block-nav{height:52px; background-color:#42474B; color:white;}
 #block-nav *{color:white;}
-#block-nav a{display:inline-block; padding:0 5px; height:52px; line-height:52px; cursor:pointer;}
+#block-nav a{padding:0 5px; line-height:52px; cursor:pointer;}
+#block-nav a:hover{border-bottom:2px solid white;}
 #logo{display: inline-block;}

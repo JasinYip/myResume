@@ -2,21 +2,28 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Jasin Yip</title>
+	<title>叶俊星的简历</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="lib/jQuery/jquery-1.11.1.min.js"></script>
 	
 <script>
 	$(function(){
-		$("#block-firstPage").css("height", $(document).height());
-		$("#block-firstPage").css("line-height", $("#block-firstPage").css("height"));
+		$(window).resize();
+
 	});
+
+	$(window).resize(function(){ 
+		$("#block-firstPage").css("height", $(window).height());
+		$('.blockTitle').css({  
+			top: ($(window).height() - $('.blockTitle').outerHeight())/2 
+		}); 
+	}); 
 </script>
 </head>
 <body>
 	<section id="block-firstPage">
-		<span class="blockTitle">Welcome</span>
+		<p class="blockTitle">Hello World</p>
 	</section>
 
 	<section id="block-nav">
@@ -28,6 +35,7 @@
 				<a href="#" id="nav-workEXP">工作经验</a>
 				<a href="#" id="nav-projectEXP">项目经验</a>
 				<a href="#" id="nav-eduBg">教育背景</a>
+				<a href="#" id="nav-wantMore">索要简历</a>
 			</nav>
 		</div>
 	</section>
@@ -51,10 +59,18 @@
 	</section>
 
 	<section id="block-projectEXP">
-		<div class="container"></div>
+		<div class="container">
+			
+		</div>
 	</section>
 
 	<section id="block-eduBg">
+		<div class="container">
+			
+		</div>
+	</section>
+
+	<section id="block-wantMore">
 		<div class="container">
 			
 		</div>
