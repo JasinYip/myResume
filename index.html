@@ -6,18 +6,39 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="lib/jQuery/jquery-1.11.1.min.js"></script>
-	
 <script>
 	$(function(){
 		$(window).resize();
+
+		$("#block-nav").css("z-index", 1);
+
+		//导航条固定顶部
+		var navSpace = $("#block-nav").offset().top;
+		$(window).scroll( function() {
+		  var topSpace = $(window).scrollTop();
+		  if (topSpace>=navSpace){
+		    $("#block-nav").css("position", "fixed");
+		    $("#block-nav").css("top", "0");
+		  }else{
+		    $("#block-nav").css("position", "static");
+		    $("#block-nav").css("top", null);
+		  }
+
+		  //平滑滚动导航
+		  $('nav a, #logo').bind('click',function(event){
+		      var $anchor = $(this);
+		      $('html, body').stop().animate({
+		          scrollTop: $($anchor.attr('href')).offset().top
+		      }, 500);
+		      event.preventDefault();
+		  });
+		});
 
 	});
 
 	$(window).resize(function(){ 
 		$("#block-firstPage").css("height", $(window).height());
-		$('.blockTitle').css({  
-			top: ($(window).height() - $('.blockTitle').outerHeight())/2 
-		}); 
+		$('.blockTitle').css("top", ($(window).height() - $('.blockTitle').outerHeight())/2 ); 
 	}); 
 </script>
 </head>
@@ -28,14 +49,14 @@
 
 	<section id="block-nav">
 		<div class="container">
-			<a class="fl" id="logo">Jasin Yip</a>
+			<a class="fl" href="#block-firstPage" id="logo">Jasin Yip</a>
 			<nav class="fr">
-				<a href="#" id="nav-intro">个人简介</a>
-				<a href="#" id="nav-skill">专业技能</a>
-				<a href="#" id="nav-workEXP">工作经验</a>
-				<a href="#" id="nav-projectEXP">项目经验</a>
-				<a href="#" id="nav-eduBg">教育背景</a>
-				<a href="#" id="nav-wantMore">索要简历</a>
+				<a href="#block-intro" id="nav-intro">个人简介</a>
+				<a href="#block-skill" id="nav-skill">专业技能</a>
+				<a href="#block-workEXP" id="nav-workEXP">工作经验</a>
+				<a href="#block-projectEXP" id="nav-projectEXP">项目经验</a>
+				<a href="#block-eduBg" id="nav-eduBg">教育背景</a>
+				<a href="#block-wantMore" id="nav-wantMore">索要简历</a>
 			</nav>
 		</div>
 	</section>

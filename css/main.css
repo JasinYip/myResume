@@ -1,19 +1,19 @@
 /* public */
 *{font-family: "Microsoft YaHei";}
-body{}
 section{width:100%;}
-.container{position:relative; margin:0 auto; width:1140px; height:100%;}
+.container{position:relative; margin:0 auto; width:1140px; height:100%;z-index:0;}
 
 /* first page */
 #block-firstPage{width:100%; background-color:#16AB70; font-size: 100px; color:white; text-align: center;}
-.blockTitle{ position:absolute; margin:0 auto; width:100%;}
+.blockTitle{position:absolute; margin:0 auto; width:100%;}
 
 /* nav */
-#block-nav{height:52px; background-color:#42474B; color:white;}
+#block-nav{height:52px; background-color:#42474B; color:white; }
 #block-nav *{color:white;}
-#block-nav a{padding:0 5px; line-height:52px; cursor:pointer;}
-#block-nav a:hover{border-bottom:2px solid white;}
+#block-nav a{padding:0 5px; line-height:52px; cursor:pointer; z-index: 1}
+nav a:hover{border-bottom:2px solid white;}
 #logo{display: inline-block;}
+
 
 #block-intro {height:300px; width:100%; background-color:#328CD0;}
 #block-skill {height:300px; width:100%; background-color:#013863}
@@ -21,14 +21,3 @@ section{width:100%;}
 #block-projectEXP {height:300px; width:100%; background-color:#262c35;}
 #block-eduBg {height:300px; width:100%; background-color:#328CD0;}
 #block-wantMore {height:300px; width:100%; background-color:#16AB70;}
-
-
-
-/*
-#7f7f7f
-#f36851
-#2b313d
-#f7f7f7
-#2b313d
-#262c35
-#f7f7f7*/
