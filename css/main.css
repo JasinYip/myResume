@@ -9,15 +9,29 @@ section{width:100%;}
 
 /* nav */
 #block-nav{height:52px; background-color:#42474B; color:white; }
-#block-nav *{color:white;}
-#block-nav a{padding:0 5px; line-height:52px; cursor:pointer; z-index: 1}
-nav a:hover{border-bottom:2px solid white;}
+#block-nav *{}
+#block-nav a{padding:0 25px; font-size:14px; line-height:52px; cursor:pointer; z-index: 1; color:white;}
+#block-nav a:hover{color:#999;}
 #logo{display: inline-block;}
 
+/*
+<img src="img/github.png" alt="">
+<img src="img/linkedin.png" alt="">
+<img src="img/blog.png" alt="">
+<img src="img/email.png" alt="">*/
 
-#block-intro {height:300px; width:100%; background-color:#328CD0;}
-#block-skill {height:300px; width:100%; background-color:#013863}
-#block-workEXP {height:300px; width:100%; background-color:#FFC4A4;}
-#block-projectEXP {height:300px; width:100%; background-color:#262c35;}
-#block-eduBg {height:300px; width:100%; background-color:#328CD0;}
-#block-wantMore {height:300px; width:100%; background-color:#16AB70;}
+/* block-intro */
+#block-intro   {height:1000px; width:100%; background-color:#328CD0;}
+#intro-icon    {height:300px; width:100%; padding-top: 50px; line-height:300px;}
+.link          {display:inline-block; height:100px; width:100px; text-indent: -9999em; }
+#link-github   {background:url(../img/github.png) no-repeat center; margin-left:76px;}
+#link-linkedin {background:url(../img/linkedin.png) no-repeat center; margin-left:76px;}
+#myPhoto       {height:270px; width:270px; display:inline-block; margin:0 0 0 78px;}
+#link-blog     {background:url(../img/blog.png) no-repeat center; margin-left:78px;}
+#link-email    {background:url(../img/email.png) no-repeat center; margin-left:76px;}
+
+#block-skill {height:1000px; width:100%; background-color:#013863}
+#block-workEXP {height:1000px; width:100%; background-color:#FFC4A4;}
+#block-projectEXP {height:1000px; width:100%; background-color:#262c35;}
+#block-eduBg {height:1000px; width:100%; background-color:#328CD0;}
+#block-wantMore {height:1000px; width:100%; background-color:#16AB70;}

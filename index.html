@@ -2,45 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit"> 
 	<title>叶俊星的简介</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="lib/jQuery/jquery-1.11.1.min.js"></script>
-<script>
-	$(function(){
-		$(window).resize();
-
-		$("#block-nav").css("z-index", 1);
-
-		//导航条固定顶部
-		var navSpace = $("#block-nav").offset().top;
-		$(window).scroll( function() {
-		  var topSpace = $(window).scrollTop();
-		  if (topSpace>=navSpace){
-		    $("#block-nav").css("position", "fixed");
-		    $("#block-nav").css("top", "0");
-		  }else{
-		    $("#block-nav").css("position", "static");
-		    $("#block-nav").css("top", null);
-		  }
-
-		  //平滑滚动导航
-		  $('nav a, #logo').bind('click',function(event){
-		      var $anchor = $(this);
-		      $('html, body').stop().animate({
-		          scrollTop: $($anchor.attr('href')).offset().top
-		      }, 500);
-		      event.preventDefault();
-		  });
-		});
-
-	});
-
-	$(window).resize(function(){ 
-		$("#block-firstPage").css("height", $(window).height());
-		$('.blockTitle').css("top", ($(window).height() - $('.blockTitle').outerHeight())/2 ); 
-	}); 
-</script>
+	<script src="js/main.js"></script>
 </head>
 <body>
 	<section id="block-firstPage">
@@ -63,7 +30,13 @@
 
 	<section id="block-intro">
 		<div class="container">
-			
+			<div id="intro-icon">
+				<a class="link" href="http://github.com/jasinyip" id="link-github">GitHub</a>
+				<a class="link" href="http://linkedin.com/jasinyip" id="link-linkedin">Linkedin</a>
+				<img id="myPhoto" src="img/myPhoto.png">
+				<a class="link" href="http://jasinyip.com/" id="link-blog">Blog</a>
+				<a class="link" href="mailto:yejunxing@gmail.com" id="link-email">E-mail</a>
+			</div>
 		</div>
 	</section>
 
