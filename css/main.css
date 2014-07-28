@@ -1,24 +1,17 @@
 /* public */
 *{font-family: "Microsoft YaHei";}
 section{width:100%;}
-.container{position:relative; margin:0 auto; width:1140px; height:100%;z-index:0;}
+.container{margin:0 auto; width:1140px; height:100%;z-index:0;}
 
 /* first page */
 #block-firstPage{width:100%; background-color:#16AB70; font-size: 100px; color:white; text-align: center;}
 .blockTitle{position:absolute; margin:0 auto; width:100%;}
 
 /* nav */
-#block-nav{height:52px; background-color:#42474B; color:white; }
-#block-nav *{}
+#block-nav {height:52px; background-color:#42474B; color:white; }
 #block-nav a{padding:0 25px; font-size:14px; line-height:52px; cursor:pointer; z-index: 1; color:white;}
 #block-nav a:hover{color:#999;}
 #logo{display: inline-block;}
-
-/*
-<img src="img/github.png" alt="">
-<img src="img/linkedin.png" alt="">
-<img src="img/blog.png" alt="">
-<img src="img/email.png" alt="">*/
 
 /* block-intro */
 #block-intro   {height:1000px; width:100%; background-color:#328CD0;}

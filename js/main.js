@@ -1,28 +1,30 @@
 $(function(){
 	$(window).resize();
-
+	var windowHeight = $(window).height();
 	$("#block-nav").css("z-index", 1);
 
-	//导航条固定顶部
+	// 导航条固定顶部
 	var navSpace = $("#block-nav").offset().top;
 	$(window).scroll( function() {
 	  var topSpace = $(window).scrollTop();
 	  if (topSpace>=navSpace){
-	    $("#block-nav").css("position", "fixed");
-	    $("#block-nav").css("top", "0");
+	    $("#block-nav").css({
+	    	"position" : "fixed",
+	    	"top": "0"
+	    });
 	  }else{
-	    $("#block-nav").css("position", "static");
-	    $("#block-nav").css("top", null);
+	    $("#block-nav").css({
+	    	"position" : "static",
+	    	"top": null
+	    });
 	  }
+	});	
 
 	//平滑滚动导航
 	$('nav a, #logo').bind('click',function(event){
 		var $anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-			}, 500);
-			event.preventDefault();
-		});
+		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 500);
+		event.preventDefault();
 	});
 
 	//link的hover效果
