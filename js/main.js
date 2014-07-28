@@ -4,21 +4,7 @@ $(function(){
 	$("#block-nav").css("z-index", 1);
 
 	// 导航条固定顶部
-	var navSpace = $("#block-nav").offset().top;
-	$(window).scroll( function() {
-	  var topSpace = $(window).scrollTop();
-	  if (topSpace>=navSpace){
-	    $("#block-nav").css({
-	    	"position" : "fixed",
-	    	"top": "0"
-	    });
-	  }else{
-	    $("#block-nav").css({
-	    	"position" : "static",
-	    	"top": null
-	    });
-	  }
-	});	
+	$("#block-nav").pin();
 
 	//平滑滚动导航
 	$('nav a, #logo').bind('click',function(event){
