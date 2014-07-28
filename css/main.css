@@ -13,7 +13,7 @@ section{width:100%;}
 #logo{display: inline-block;}
 
 /* block-intro */
-#block-intro   {height:1000px; width:100%; background-color:#328CD0;}
+#block-intro   {height:auto; width:100%; background-color:#328CD0;}
 #intro-icon    {height:300px; width:100%; padding-top: 50px; line-height:300px;}
 .link          {display:inline-block; height:100px; width:100px; text-indent: -9999em; }
 #link-github   {background:url(../img/github.png) no-repeat center; margin-left:76px;}
@@ -21,6 +21,14 @@ section{width:100%;}
 #myPhoto       {height:270px; width:270px; display:inline-block; margin:0 0 0 78px;}
 #link-blog     {background:url(../img/blog.png) no-repeat center; margin-left:78px;}
 #link-email    {background:url(../img/email.png) no-repeat center; margin-left:76px;}
+#intro-text    {display:inline-block; margin:100px 0 0 130px; color:white;}
+#intro-text ul {margin-bottom:100px;}
+#intro-text li {height:30px;}
+#intro-text ul li a {display:inline-block;}
+#intro-text ul li a:hover {border-bottom:2px solid white;}
+#intro-text ul li span {display:inline-block; text-align:right; width:70px;}
+#intro-text div {display:inline-block; width:500px; margin-left:120px;}
+#intro-text div p {margin-bottom:30px}
 
 #block-skill {height:1000px; width:100%; background-color:#013863}
 #block-workEXP {height:1000px; width:100%; background-color:#FFC4A4;}

@@ -25,6 +25,7 @@ $(function(){
 });
 
 $(window).resize(function(){ 
+	$("#block-nav").pin();
 	$("#block-firstPage").css("height", $(window).height());
 	$('.blockTitle').css("top", ($(window).height() - $('.blockTitle').outerHeight())/2 ); 
 }); 
