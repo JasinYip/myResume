@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="lib/jQuery/jquery-1.11.1.min.js"></script>
 	<script src="lib/jQuery/jquery.pin.js"></script>
+	<!-- <script src="lib/jQuery/stickUp.min.js"></script> -->
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -15,8 +16,9 @@
 		<p class="blockTitle">Hello World</p>
 	</section>
 
+	
 	<section id="block-nav">
-		<div class="container">
+		<header class="container">
 			<a class="fl" href="#block-firstPage" id="logo">Jasin Yip</a>
 			<nav class="fr">
 				<a href="#block-intro" id="nav-intro">个人简介</a>
@@ -26,14 +28,14 @@
 				<a href="#block-eduBg" id="nav-eduBg">教育背景</a>
 				<a href="#block-wantMore" id="nav-wantMore">索要简历</a>
 			</nav>
-		</div>
+		</header>
 	</section>
 
 	<section id="block-intro">
 		<div class="container">
 			<div id="intro-icon">
 				<a class="link" href="http://github.com/jasinyip" id="link-github">GitHub</a>
-				<a class="link" href="http://linkedin.com/jasinyip" id="link-linkedin">Linkedin</a>
+				<a class="link" href="http://cn.linkedin.com/pub/俊星-叶/98/76b/a93/" id="link-linkedin">Linkedin</a>
 				<img id="myPhoto" src="img/myPhoto.png">
 				<a class="link" href="http://jasinyip.com/" id="link-blog">Blog</a>
 				<a class="link" href="mailto:yejunxing@gmail.com" id="link-email">E-mail</a>
@@ -88,5 +90,12 @@
 			
 		</div>
 	</section>
+	<!-- <script type="text/javascript">
+		jQuery(function($) {
+			$(document).ready( function() {
+				$('#block-nav').stickUp();
+			});
+		});
+	</script> -->
 </body>
 </html>

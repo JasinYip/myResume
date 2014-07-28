@@ -7,7 +7,7 @@ section{width:100%;}
 .blockTitle{position:absolute; margin:0 auto; width:100%;}
 
 /* nav */
-#block-nav {height:52px; background-color:#42474B; color:white; }
+#block-nav {position:relative; top:0; height:52px; background-color:#42474B; color:white; }
 #block-nav a{padding:0 25px; font-size:14px; line-height:52px; cursor:pointer; z-index: 1; color:white;}
 #block-nav a:hover{color:#999;}
 #logo{display: inline-block;}
