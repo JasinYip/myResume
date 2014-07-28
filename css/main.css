@@ -5,6 +5,8 @@ section{width:100%;}
 /* first page */
 #block-firstPage{width:100%; background-color:#16AB70; font-size: 100px; color:white; text-align: center;}
 .blockTitle{position:absolute; margin:0 auto; width:100%;}
+#fstPage-down{position:absolute; bottom:16px; height:18px; width:100%;}
+#fstPage-down a{display:block; height:18px; width:32px; margin:0 auto; background:url(../img/down.png) no-repeat center}
 
 /* nav */
 #block-nav {position:relative; top:0; height:52px; background-color:#42474B; color:white; }
@@ -14,14 +16,14 @@ section{width:100%;}
 
 /* block-intro */
 #block-intro   {height:auto; width:100%; background-color:#328CD0;}
-#intro-icon    {height:300px; width:100%; padding-top: 50px; line-height:300px;}
+#intro-icon    {height:300px; width:100%; padding-top: 100px; line-height:300px;}
 .link          {display:inline-block; height:100px; width:100px; text-indent: -9999em; }
 #link-github   {background:url(../img/github.png) no-repeat center; margin-left:76px;}
 #link-linkedin {background:url(../img/linkedin.png) no-repeat center; margin-left:76px;}
 #myPhoto       {height:270px; width:270px; display:inline-block; margin:0 0 0 78px;}
 #link-blog     {background:url(../img/blog.png) no-repeat center; margin-left:78px;}
 #link-email    {background:url(../img/email.png) no-repeat center; margin-left:76px;}
-#intro-text    {display:inline-block; margin:100px 0 0 130px; color:white;}
+#intro-text    {display:inline-block; margin:80px 0 0 130px; color:white;}
 #intro-text ul {margin-bottom:100px;}
 #intro-text li {height:30px;}
 #intro-text ul li a {display:inline-block;}
@@ -30,8 +32,17 @@ section{width:100%;}
 #intro-text div {display:inline-block; width:500px; margin-left:120px;}
 #intro-text div p {margin-bottom:30px}
 
-#block-skill {height:1000px; width:100%; background-color:#013863}
-#block-workEXP {height:1000px; width:100%; background-color:#FFC4A4;}
-#block-projectEXP {height:1000px; width:100%; background-color:#262c35;}
+/* block-skill */
+#block-skill {height:auto; width:100%; background-color:#013863; color:#e7e7e7;}
+#block-skill .skill-title {width:300px; margin:0 auto; padding-top:100px; text-align:center;}
+#block-skill .skill-title label {font-size:46px;}
+#block-skill .skills {height:auto; width:auto; margin-bottom:160px;}
+#block-skill ul {display:inline-block; height:auto; width:210px; margin:80px 0 0 60px; border:1px solid #888; font-size:20px; font-family:"Microsoft YaHei light"; text-align: center; vertical-align: top;}
+#block-skill li {height:36px; line-height:36px;}
+#block-skill li:first-child {background-color:#888;}
+#block-skill li:hover{background-color:#888;}
+
+#block-workEXP {height:1000px; width:100%; background-color:#262c35;}
+#block-projectEXP {height:1000px; width:100%; background-color:#FFC4A4;}
 #block-eduBg {height:1000px; width:100%; background-color:#328CD0;}
 #block-wantMore {height:1000px; width:100%; background-color:#16AB70;}

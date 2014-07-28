@@ -4,8 +4,6 @@ $(function(){
 	$("#block-nav").css("z-index", 1);
 
 	// 导航条固定顶部
-	//$("#block-nav").pin();
-	//$("#block-nav").stickUp();
 	$(document).scroll( function() {
 	  var topSpace = $(document).scrollTop();
 	  if (topSpace>=navSpace){
@@ -17,11 +15,10 @@ $(function(){
 	  }
 	});
 
-
 	//平滑滚动导航
-	$('nav a, #logo').bind('click',function(event){
+	$('#fstPage-down a, nav a, #logo').bind('click',function(event){
 		var $anchor = $(this);
-		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 500);
+		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 600);
 		event.preventDefault();
 	});
 
