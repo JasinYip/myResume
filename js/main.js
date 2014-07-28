@@ -21,14 +21,6 @@ $(function(){
 		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 600);
 		event.preventDefault();
 	});
-
-	//link的hover效果
-	$(".link").hover(function(){
-		$(this).css("background", "url(img/"+ $(this).attr('id').split('-')[1].toString() +"_hover.png) no-repeat center");
-	},function(){
-		$(this).css("background", "url(img/"+ $(this).attr('id').split('-')[1].toString() +".png) no-repeat center");
-	});
-
 });
 
 $(window).resize(function(){ 

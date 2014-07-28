@@ -15,9 +15,10 @@ section{width:100%;}
 #logo{display: inline-block;}
 
 /* block-intro */
-#block-intro   {height:auto; width:100%; background-color:#328CD0;}
-#intro-icon    {height:300px; width:100%; padding-top: 100px; line-height:300px;}
-.link          {display:inline-block; height:100px; width:100px; text-indent: -9999em; }
+#block-intro {height:auto; width:100%; background-color:#328CD0;}
+#intro-icon  {height:300px; width:100%; padding-top: 100px; line-height:300px;}
+.link        {display:inline-block; height:100px; width:100px; text-indent: -9999em;-webkit-transition:0.4s linear;transition:0.4s ease-in;}
+.link:hover{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
 #link-github   {background:url(../img/github.png) no-repeat center; margin-left:76px;}
 #link-linkedin {background:url(../img/linkedin.png) no-repeat center; margin-left:76px;}
 #myPhoto       {height:270px; width:270px; display:inline-block; margin:0 0 0 78px;}
