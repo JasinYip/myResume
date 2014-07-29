@@ -15,8 +15,8 @@ section{width:100%;}
 #logo{display: inline-block;}
 
 /* block-intro */
-#block-intro {height:auto; width:100%; background-color:#328CD0; padding-bottom:100px;}
-#intro-icon  {height:300px; width:100%; padding-top: 100px; line-height:300px;}
+#block-intro {height:auto; width:100%; background-color:#328CD0; padding:60px 0 100px;}
+#intro-icon  {height:300px; width:100%; line-height:300px;}
 .link        {display:inline-block; height:100px; width:100px; text-indent: -9999em;-webkit-transition:0.4s linear;transition:0.4s ease-in;}
 .link:hover  {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
 #link-github   {background:url(../img/github.png) no-repeat center; margin-left:76px;}
@@ -59,7 +59,6 @@ section{width:100%;}
 #block-workEXP .workbox .work-do {margin-top:10px; font-size:16px;}
 
 
-#block-projectEXP {height:1000px; width:100%; background-color:#013863;}
-#block-eduBg {height:1000px; width:100%; background-color:#328CD0;}
-#block-wantMore {height:1000px; width:100%; background-color:#16AB70;}
+#block-projectEXP {padding:200px 0; width:100%; background-color:#013863;}
+#block-wantMore {padding:200px 0; width:100%; background-color:#328CD0;}
 

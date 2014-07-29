@@ -18,7 +18,7 @@ $(function(){
 	//平滑滚动导航
 	$('#fstPage-down a, nav a, #logo').bind('click',function(event){
 		var $anchor = $(this);
-		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 600);
+		$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top-52}, 600);
 		event.preventDefault();
 	});
 });
