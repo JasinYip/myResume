@@ -43,7 +43,24 @@ section{width:100%;}
 #block-skill li:first-child {background-color:#FFF; color:#333;}
 #block-skill li:hover{background-color:#FFF; color:#333;}
 
-#block-workEXP {height:1000px; width:100%; background-color:#262c35;}
-#block-projectEXP {height:1000px; width:100%; background-color:#FFC4A4;}
+/* block-workEXP */
+#block-workEXP {height:auto; width:100%; background-color:#262c35; color:#e7e7e7;padding:160px 0}
+#block-workEXP .work-title {width:300px; margin:0 auto; text-align:center;}
+#block-workEXP .work-title label {font-size:46px;}
+#block-workEXP .workEXP-main {height:auto; width:auto; margin:100px 0 0 60px;}
+#block-workEXP .timebox {margin-left:194px; font-size:29px;}
+#block-workEXP .timebox li{display:inline-block; margin-top:5px;}
+#block-workEXP .time1 {margin-left:110px}
+#block-workEXP .timeline {height:27px; width:868px; margin-left:42px; background:url(../img/timeline.png) no-repeat center;}
+#block-workEXP .workbox  {margin-left:194px;}
+#block-workEXP .workbox li{display:inline-block; width:310px; vertical-align: top;}
+#block-workEXP .workbox li label{display:block;}
+#block-workEXP .workbox .work-place {font-size:26px; font-weight:bold}
+#block-workEXP .workbox .work-position {font-size:20px;}
+#block-workEXP .workbox .work-do {margin-top:10px; font-size:16px;}
+
+
+#block-projectEXP {height:1000px; width:100%; background-color:#013863;}
 #block-eduBg {height:1000px; width:100%; background-color:#328CD0;}
 #block-wantMore {height:1000px; width:100%; background-color:#16AB70;}
+
