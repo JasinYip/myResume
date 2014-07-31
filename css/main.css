@@ -67,6 +67,8 @@ h2 {font-size:46px; font-weight:normal;}
 #block-prjEXP .prj .prj-intro {height:auto; width:270px; }
 #block-prjEXP #prj-helpmechoose .prj-logo {background:#2B313D url(../img/helpmechoose.png) no-repeat center;}
 #block-prjEXP #prj-integralSystem .prj-logo {background:#2B313D url(../img/integralSystem.png) no-repeat center;}
+
 /* block-wantMore */
-#block-wantMore {height:1000px; padding:200px 0; width:100%; background-color:#328CD0;}
+#block-wantMore {height:800px; width:100%; background-color:#328CD0; color:#fff;}
+#block-wantMore .endding-msg {padding-top:400px; text-align:center; font-size: 30px;}
 
