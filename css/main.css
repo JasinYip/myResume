@@ -69,6 +69,8 @@ h2 {font-size:46px; font-weight:normal;}
 #block-prjEXP #prj-integralSystem .prj-logo {background:#2B313D url(../img/integralSystem.png) no-repeat center;}
 
 /* block-wantMore */
-#block-wantMore {height:800px; width:100%; background-color:#328CD0; color:#fff;}
+#block-wantMore {height:1000px; width:100%; background-color:#328CD0; color:#fff;}
 #block-wantMore .endding-msg {padding-top:400px; text-align:center; font-size: 30px;}
 
+/* 百度统计 */
+body>a {height:0;}
