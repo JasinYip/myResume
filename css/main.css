@@ -1,6 +1,7 @@
 /* public */
 section{width:100%;}
 .container{margin:0 auto; width:1140px; height:100%;z-index:0;}
+h2 {font-size:46px; font-weight:normal;}
 
 /* first page */
 #block-firstPage{width:100%; background-color:#16AB70; font-size: 100px; color:white; text-align: center;}
@@ -35,7 +36,6 @@ section{width:100%;}
 /* block-skill */
 #block-skill {height:auto; width:100%; background-color:#013863; color:#e7e7e7; padding-bottom:160px;}
 #block-skill .skill-title {width:300px; margin:0 auto; padding-top:100px; text-align:center;}
-#block-skill .skill-title label {font-size:46px;}
 #block-skill .skills {height:auto; width:auto;}
 #block-skill ul {display:inline-block; height:auto; width:210px; margin:80px 0 0 56px; border:2px solid #FFF; font-size:20px; font-family:"Microsoft YaHei light"; text-align: center; vertical-align: top;}
 #block-skill li {height:36px; line-height:36px;}
@@ -45,7 +45,6 @@ section{width:100%;}
 /* block-workEXP */
 #block-workEXP {height:auto; width:100%; background-color:#262c35; color:#e7e7e7;padding:160px 0}
 #block-workEXP .work-title {width:300px; margin:0 auto; text-align:center;}
-#block-workEXP .work-title label {font-size:46px;}
 #block-workEXP .workEXP-main {height:auto; width:auto; margin:100px 0 0 60px;}
 #block-workEXP .timebox {margin-left:194px; font-size:29px;}
 #block-workEXP .timebox li{display:inline-block; margin-top:5px;}
@@ -58,7 +57,16 @@ section{width:100%;}
 #block-workEXP .workbox .work-position {font-size:20px;}
 #block-workEXP .workbox .work-do {margin-top:10px; font-size:16px;}
 
-
-#block-projectEXP {padding:200px 0; width:100%; background-color:#013863;}
-#block-wantMore {padding:200px 0; width:100%; background-color:#328CD0;}
+/* block-prjEXP */
+#block-prjEXP {padding:50px 0 200px; width:100%; background-color:#013863; color:#e7e7e7;}
+#block-prjEXP .prjEXP-title {width:300px; margin:30px auto; text-align:center;}
+#block-prjEXP .prjs {height:auto; width:100%; margin-top:100px; overflow:hidden;}
+#block-prjEXP .prj {float:left; height:auto; width:270px; margin-left:200px;}
+#block-prjEXP .prj .prj-logo {height:270px; width:270px; border-radius:50%;}
+#block-prjEXP .prj .prj-title {height:auto; width:270px; margin:20px 0; font-size:26px; text-align:center;}
+#block-prjEXP .prj .prj-intro {height:auto; width:270px; }
+#block-prjEXP #prj-helpmechoose .prj-logo {background:#6abacc url(../img/helpmechoose.png) no-repeat center;}
+#block-prjEXP #prj-integralSystem .prj-logo {background:#6abacc url(../img/integralSystem.png) no-repeat center;}
+/* block-wantMore */
+#block-wantMore {height:1000px; padding:200px 0; width:100%; background-color:#328CD0;}
 
