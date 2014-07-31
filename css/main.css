@@ -65,8 +65,8 @@ h2 {font-size:46px; font-weight:normal;}
 #block-prjEXP .prj .prj-logo {height:270px; width:270px; border-radius:50%;}
 #block-prjEXP .prj .prj-title {height:auto; width:270px; margin:20px 0; font-size:26px; text-align:center;}
 #block-prjEXP .prj .prj-intro {height:auto; width:270px; }
-#block-prjEXP #prj-helpmechoose .prj-logo {background:#6abacc url(../img/helpmechoose.png) no-repeat center;}
-#block-prjEXP #prj-integralSystem .prj-logo {background:#6abacc url(../img/integralSystem.png) no-repeat center;}
+#block-prjEXP #prj-helpmechoose .prj-logo {background:#2B313D url(../img/helpmechoose.png) no-repeat center;}
+#block-prjEXP #prj-integralSystem .prj-logo {background:#2B313D url(../img/integralSystem.png) no-repeat center;}
 /* block-wantMore */
 #block-wantMore {height:1000px; padding:200px 0; width:100%; background-color:#328CD0;}
 
