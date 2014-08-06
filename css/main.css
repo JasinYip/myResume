@@ -31,7 +31,7 @@ h2 {font-size:46px; font-weight:normal;}
 #intro-text ul li a:hover {border-bottom:2px solid white;}
 #intro-text ul li span {display:inline-block; text-align:right; width:70px;}
 #intro-text div {display:inline-block; width:550px; margin-left:120px;}
-#intro-text div p {margin-bottom:26px}
+#intro-text>div>p {margin-bottom:26px;}
 
 /* block-skill */
 #block-skill {height:auto; width:100%; background-color:#8ED2C0; color:black; padding-bottom:160px; color:#58606C;}
@@ -64,7 +64,7 @@ h2 {font-size:46px; font-weight:normal;}
 #block-prjEXP .prj {float:left; height:auto; width:270px; margin-left:200px;}
 #block-prjEXP .prj .prj-logo {height:270px; width:270px; border-radius:50%;}
 #block-prjEXP .prj .prj-title {height:auto; width:270px; margin:20px 0; font-size:26px; text-align:center;}
-#block-prjEXP .prj .prj-intro {height:auto; width:270px; font-size:20px;}
+#block-prjEXP .prj .prj-intro {height:auto; width:270px; font-size:20px; text-indent:1em}
 #block-prjEXP #prj-helpmechoose .prj-logo {background:#28BAB3 url(../img/helpmechoose.png) no-repeat center;}
 #block-prjEXP #prj-integralSystem .prj-logo {background:#28BAB3 url(../img/integralSystem.png) no-repeat center;}
 
