@@ -24,8 +24,11 @@ $(document).scroll( function() {
 
 
 $(window).resize(function(){ 
+
+	//首页满屏
 	$("#block-firstPage").css("height", $(window).height());
-	$('.blockTitle').animate({
+	//首页文字效果
+	$('.blockTitle').stop().fadeIn("fast").animate({
 		"top"     : ($(window).height() - $('.blockTitle').outerHeight())/2
 	},600); 
 

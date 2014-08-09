@@ -5,7 +5,7 @@ h2 {font-size:46px; font-weight:normal;}
 
 /* first page */
 #block-firstPage{height:1000px; width:100%; background-color:#22B573; font-size: 100px; color:white; text-align: center;}
-.blockTitle{display:block; position:absolute; margin:0 auto; width:100%;}
+.blockTitle{display:none; position:absolute; margin:0 auto; width:100%;}
 #fstPage-down{position:absolute; bottom:16px; height:18px; width:100%;}
 #fstPage-down a{display:block; height:18px; width:32px; margin:0 auto; background:url(../img/down.png) no-repeat center}
 
