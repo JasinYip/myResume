@@ -1,5 +1,5 @@
 /* public */
-section{width:100%;}
+section{width:100%; overflow: hidden;}
 .container{margin:0 auto; width:1140px; height:100%;z-index:0;}
 h2 {font-size:46px; font-weight:normal;}
 
