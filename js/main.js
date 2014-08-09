@@ -28,9 +28,9 @@ $(window).resize(function(){
 	//首页满屏
 	$("#block-firstPage").css("height", $(window).height());
 	//首页文字效果
-	$('.blockTitle').stop().fadeIn("fast").animate({
+	$('.blockTitle').stop().fadeIn("normal").animate({
 		"top"     : ($(window).height() - $('.blockTitle').outerHeight())/2
-	},600); 
+	},500); 
 
 	navPosition = $("#block-firstPage").height();
 	navFixed();
