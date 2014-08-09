@@ -25,7 +25,9 @@ $(document).scroll( function() {
 
 $(window).resize(function(){ 
 	$("#block-firstPage").css("height", $(window).height());
-	$('.blockTitle').css("top", ($(window).height() - $('.blockTitle').outerHeight())/2 ); 
+	$('.blockTitle').animate({
+		"top"     : ($(window).height() - $('.blockTitle').outerHeight())/2
+	},600); 
 
 	navPosition = $("#block-firstPage").height();
 	navFixed();
