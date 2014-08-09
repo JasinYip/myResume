@@ -1,13 +1,10 @@
-var topPosition, navPosition;
 
 $(function(){
 	$(window).resize();
 	$("#block-nav").css("z-index", 1);
 
 	// 导航条固定顶部
-	navPosition = $("#block-firstPage").height();
-	topPosition = $(document).scrollTop();
-	navFixed();
+	$("#nav").navFixed();
 
 	//平滑滚动导航
 	$('#fstPage-down a, nav a, #logo').bind('click',function(event){
@@ -16,12 +13,6 @@ $(function(){
 		event.preventDefault();
 	});
 });
-	
-$(document).scroll( function() {
-	topPosition = $(document).scrollTop();
-	navFixed();
-});
-
 
 $(window).resize(function(){ 
 
@@ -32,8 +23,6 @@ $(window).resize(function(){
 		"top"     : ($(window).height() - $('.blockTitle').outerHeight())/2
 	},500); 
 
-	navPosition = $("#block-firstPage").height();
-	navFixed();
 }); 
 
 function navFixed(){
