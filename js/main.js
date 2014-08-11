@@ -4,7 +4,7 @@ $(function(){
 	$("#block-nav").css("z-index", 1);
 
 	// 导航条固定顶部
-	$("#nav").navFixed();
+	$("#block-nav").navFixed();
 
 	//平滑滚动导航
 	$('#fstPage-down a, nav a, #logo').bind('click',function(event){
@@ -20,18 +20,9 @@ $(window).resize(function(){
 	$("#block-firstPage").css("height", $(window).height());
 	//首页文字效果
 	$('.blockTitle').stop().fadeIn("normal").animate({
-		"top"     : ($(window).height() - $('.blockTitle').outerHeight())/2
+		"top" : ($(window).height() - $('.blockTitle').outerHeight())/2
 	},500); 
 
-}); 
-
-function navFixed(){
-	if (topPosition>=navPosition){
-	    $("#block-nav").css("position", "fixed");
-	    $("#block-intro").css("margin-top", "52px");
-	  }else{
-	    $("#block-nav").css("position", "relative");
-	    $("#block-intro").css("margin-top", "0");
-	  }
-
-}
+	$("#block-wantMore").css("height", $(window).height()-52 + "px");
+	$('#block-wantMore>p').css("top", ($("#block-wantMore").outerHeight(true) - $('#block-wantMore>p').outerHeight())/2 + "px"); 
+});

@@ -69,8 +69,8 @@ h2 {font-size:46px; font-weight:normal;}
 #block-prjEXP #prj-integralSystem .prj-logo {background:#3E9BE6 url(../img/integralSystem.png) no-repeat center; border:6px solid #E7E7E7;}
 
 /* block-wantMore */
-#block-wantMore {height:1000px; width:100%; background-color:#ED6461; color:#fff;}
-#block-wantMore .endding-msg {padding-top:400px; text-align:center; font-size: 30px;}
+#block-wantMore {width:100%; background-color:#ED6461; color:#fff;}
+#block-wantMore>p {display:block; position:relative; margin:0 auto; width:100%; text-align:center; font-size: 30px;}
 
 /* 百度统计 */
 body>a {height:0;}
