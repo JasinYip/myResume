@@ -1,6 +1,8 @@
 *{margin:0;padding:0;font-family:"Microsoft YaHei"}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
 img{border:none;}
 li{list-style:none;}
 a{text-decoration:none; color:white;}
 .fl{float:left;}
 .fr{float:right;}
+
